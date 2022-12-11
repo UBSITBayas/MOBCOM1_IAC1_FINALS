@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <!-- the root view must be the DrawerLayout -->
+
+<androidx.drawerlayout.widget.DrawerLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/my_drawer_layout"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity"
+tools:ignore="HardcodedText"
+android:background="@color/background_color">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/appLogo"
+            android:layout_width="417dp"
+            android:layout_height="312dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/witching_hour__7_" />
+
+        <TextView
+            android:id="@+id/homeMessage"
+            android:layout_width="354dp"
+            android:layout_height="71dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/alata"
+            android:text="Greetings! Login or create an account and let the magic begin."
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/appLogo" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnLoginMainPage"
+            android:layout_width="139dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="32dp"
+
+            android:background="@drawable/custom_button"
+            android:fontFamily="@font/alata"
+            android:text="Login"
+            android:textColor="@color/white"
+
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/homeMessage"
+            tools:ignore="MissingConstraints" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnRegisterMainPage"
+            android:layout_width="139dp"
+
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/custom_button"
+
+
+            android:fontFamily="@font/alata"
+            android:text="Register"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnLoginMainPage"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="78dp"
+            android:layout_height="217dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/kindpng_1848500" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="93dp"
+            android:layout_height="119dp"
+            android:layout_marginTop="44dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/appLogo"
+            app:srcCompat="@drawable/kindpng_6__2_" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+<!-- this the navigation view which draws and shows the navigation drawer -->
+<!-- include the menu created in the menu folder -->
+    <!--
+    <com.google.android.material.navigation.NavigationView
+
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:background="@color/background_color"
+    app:menu="@menu/navigation_menu" />
+    -->
+</androidx.drawerlayout.widget.DrawerLayout>

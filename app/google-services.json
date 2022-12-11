@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "638647671178",
+    "project_id": "witchin--hour-1e3b6",
+    "storage_bucket": "witchin--hour-1e3b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:638647671178:android:58fa3cd929c200ead11073",
+        "android_client_info": {
+          "package_name": "edu.mobcom.witchinhour"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "638647671178-fr9ghujp88im8d933akg6n8pclkl5q9l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRenYhqa7x6emEjqT9r4D_Q-M1EFV8pBI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "638647671178-fr9ghujp88im8d933akg6n8pclkl5q9l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

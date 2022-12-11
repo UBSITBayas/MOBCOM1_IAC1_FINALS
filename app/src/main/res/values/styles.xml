@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.BottomNavigationView"
+        parent="Widget.Design.BottomNavigationView">
+        <item name="fontFamily">@font/alata</item>
+    </style>
+
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Title." parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+
+    </style>
+
+    <style name="LoginTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxStrokeColor">#fff</item>
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="borderRoundPercent">50</item>
+        <item name="iconGravity">end</item>
+        <item name="hintTextColor">@color/white</item>
+    </style>
+
+
+</resources>
